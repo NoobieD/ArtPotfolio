@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body,
+html {
+    background-image: url(../images/hydroEdit.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/*.wrapper{
+    background-image: url(../images/hydroEdit.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+
+.heading {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Send Flowers', cursive;
+    padding: 50px;
+    border: 0px;
+    margin: 0px;
+}
+
+.tagline {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Send Flowers', cursive;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.bg-img {
+    /* Add the blur effect */
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+}
+
+.galleryRight h2 {
+    font-family: 'Send Flowers', cursive;
+}
+
+.galleryLeft h2 {
+    font-family: 'Send Flowers', cursive;
+}
+
+.galleryRight p {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2;
+}
+
+.galleryLeft p {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2;
+}
+
+.galleryRight {
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.2);
+    /* Black w/opacity/see-through */
+    color: black;
+    z-index: 2;
+    padding: 20px;
+    text-align: left;
+}
+
+.galleryLeft {
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.2);
+    /* Black w/opacity/see-through */
+    color: black;
+    width: auto;
+    z-index: 2;
+    padding: 20px;
+    text-align: right;
+}
+
+.endTag {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Send Flowers', cursive;
+    font-size: 20px;
+    padding: 10px;
+}
